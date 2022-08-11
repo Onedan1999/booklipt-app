@@ -1,0 +1,91 @@
+.list-right {
+  flex: 0.3;
+}
+
+.side-bar {
+  padding: 14px 24px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: fit-content;
+  min-width: 350px;
+  position: sticky;
+  -webkit-position: sticky;
+  top: 90px;
+}
+
+.side-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lef-h1 {
+  font-size: 24px;
+}
+
+.side-review {
+  display: flex;
+  align-items: center;
+}
+
+.side-details {
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin-top: 18px;
+}
+
+.side-dates {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.dates-left {
+  flex: 0.5;
+  border-right: 1px solid lightgray;
+  padding: 10px 20px;
+}
+
+.dates-right {
+  padding: 10px 20px;
+  flex: 0.5;
+}
+
+.guest-details {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reserve-button {
+  margin-top: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#res-btn {
+  width: 100% !important;
+  color: white !important;
+  background-color: var(--first-color) !important;
+  padding: 10px !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+}
+
+@media screen and (max-width: 900px) {
+  .list-right {
+    flex: 1;
+  }
+
+  .side-bar {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: relative;
+    overflow-y: scroll;
+    margin-bottom: 24px;
+    top: 0px
+  }
+
+}

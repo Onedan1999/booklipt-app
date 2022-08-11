@@ -1,0 +1,86 @@
+.hero{
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.hero-div{
+  display: flex;
+  align-items: center;
+}
+
+.hero-left{
+  flex: 0.5;
+}
+
+.hero-heading{
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.btn-div{
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+  padding: 8px 24px !important;
+  border-radius: 50px !important;
+  font-size: 18px !important;
+  background-color: rgba(255, 255, 255, 0.067) !important;
+  cursor: pointer !important;
+  color: white !important ;
+  font-weight: 600 !important;
+  border: none !important;
+  text-transform: inherit !important;
+  margin-right: 14px !important;
+  text-decoration: none !important;
+}
+
+.btn2 {
+  padding: 8px 36px !important;
+  border-radius: 50px !important;
+  font-size: 20px !important;
+  background-color: var(--first-color) !important;
+  cursor: pointer !important;
+  color: white !important ;
+  font-weight: 600 !important;
+  border: none !important;
+  text-transform: inherit !important;
+  text-decoration: none !important;
+}
+
+.hero-right{
+  flex: 0.5;
+  display: flex;
+}
+
+.hero-img{
+  margin-left: auto;
+  width: 90%;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+
+  .hero{
+    margin-bottom: 80px;
+    margin-top: -20px;
+    width: 100%;
+  }
+  .hero-div{
+    display: flex;
+    padding-top: 0px;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .hero-heading{
+    font-size: 44px;
+  }
+  .hero-img{
+    display: none;
+  }
+}

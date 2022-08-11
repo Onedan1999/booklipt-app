@@ -1,0 +1,36 @@
+.details-div{
+  border-bottom: 1px solid lightgray;
+  padding: 24px 0px;
+}
+
+.details{
+  display: flex;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.details-left{
+  flex: 0.1;
+}
+
+.details-icn{
+  color: rgb(44, 44, 44);
+  font-size: 28px;
+}
+
+.details-right{
+  flex: 0.9;
+}
+
+.det-h1{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.det-p{
+  font-size: 15px;
+  font-weight: 300;
+  color: grey;
+}

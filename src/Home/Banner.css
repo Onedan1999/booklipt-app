@@ -1,0 +1,78 @@
+.banner{
+  height: 60vh;
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1501876725168-00c445821c9e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80')  ;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.banner__info{
+  background-color: var(--third-color);
+  color: white;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  width: 550px;
+  height: 240px;
+}
+
+.banner__info> h1{
+  font-size: 36px;
+}
+
+.banner__info> h5{
+  margin-top:25px;
+  font-weight: 300;
+  font-size: 20px;
+  width: 90%;
+}
+
+.banner-btn{
+  background-color: var(--first-color) !important;
+  color: white !important;
+  text-transform: inherit !important;
+  margin-top:24px !important;
+  border-radius: 50px !important;
+  font-size: 16px !important;
+  padding: 10px 24px !important;
+}
+
+.banner__info>button:hover{
+  background-color: var(--second-color);
+}
+
+.banner__searchButton{
+  background-color: var(--first-color) !important;
+  color: white !important;
+  text-transform: inherit!important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  padding: 10px !important;
+  border-radius: 0px !important;
+  text-align: center !important;
+  cursor: pointer !important;
+}
+
+.banner__search{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 900px){
+  .banner{
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .banner__info{
+    width: fit-content;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .banner__info> h1{
+    width: 100%;
+  }
+}
