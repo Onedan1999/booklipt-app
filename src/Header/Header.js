@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className="header">
       <Link style={{ textDecoration: 'none' }} href="/">
-        <h1 className="header__icon">BookLipt</h1>
+        <h1 className="header__icon">Bookier</h1>
       </Link>
       <div className="header__center">
         <input className="search__input" type="text" placeholder="Search..." />
